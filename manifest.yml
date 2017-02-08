@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 384M
+  instances: 2
+  domain: mybluemix.net
+  name: LA-Demo-App1
+  host: LA-Demo-App1
+  disk_quota: 1024M
+  services:
+  - Auto-Scaling-9h
+  - Cloudant NoSQL DB-zy
